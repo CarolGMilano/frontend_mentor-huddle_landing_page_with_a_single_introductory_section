@@ -1,0 +1,22 @@
+.rodape {
+    margin-top: 3rem;
+}
+
+.rodape__icones {
+    display: flex;
+    column-gap: .8rem;
+    justify-content: center;
+}
+
+.rodape__icones--link {
+    padding: .4rem;
+    border-radius: 100%;
+    border: 1px solid var(--branco);
+}
+
+.rodape__icones--link svg {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    fill: var(--branco);
+}

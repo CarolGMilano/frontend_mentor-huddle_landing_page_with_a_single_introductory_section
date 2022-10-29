@@ -1,0 +1,14 @@
+@media screen and (min-width: 700px) {
+    body {
+        background: url('../../img/bg-desktop.svg') no-repeat, var(--violeta);
+        background-size: contain;
+        margin: 0;
+        padding: 2rem 4rem;
+        width: 100vw;
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

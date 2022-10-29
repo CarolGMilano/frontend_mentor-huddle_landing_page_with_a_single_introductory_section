@@ -1,0 +1,18 @@
+@import url('mobile/body.css');
+@import url('mobile/header.css');
+@import url('mobile/main.css');
+@import url('mobile/footer.css');
+
+@import url('desktop/body.css');
+@import url('desktop/header.css');
+@import url('desktop/main.css');
+@import url('desktop/footer.css');
+
+:root {
+    --violeta: hsl(257, 40%, 49%);
+    --rosa: hsl(300, 69%, 71%);
+    --branco: hsl(0, 0%, 100%);
+
+    --fonte_titulo: 'Poppins', sans-serif;
+    --fonte_texto: 'Open Sans', sans-serif;
+}

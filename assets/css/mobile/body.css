@@ -1,0 +1,5 @@
+body {
+    background: url('../../img/bg-mobile.svg') no-repeat, var(--violeta);
+    background-size: contain;
+    margin: 2rem;
+}

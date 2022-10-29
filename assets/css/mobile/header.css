@@ -1,0 +1,11 @@
+.cabecalho {
+    margin-bottom: 3rem;
+}
+
+.cabecalho__logo {
+    background: url('../../img/logo.svg') no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 150px;
+    height: 45px;
+}

@@ -1,0 +1,44 @@
+@media screen and (min-width: 700px) {
+    .corpo {
+        flex-direction: row;
+        column-gap: 4rem;
+        justify-content: flex-start;
+    }
+
+    .corpo__imagem {
+        width: 60%;
+        max-width: 900px;
+    }
+
+    .corpo__container {
+        max-width: 570px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .corpo__container--titulo {
+        text-align: start;
+        font-size: 40px;
+        padding-right: 5rem;
+    }
+
+    .corpo__container--descricao {
+        text-align: start;
+        font-size: 20px;
+    }
+
+    .corpo__container--btn {
+        justify-self: flex-start;
+        align-self: flex-start;
+        width: 180px;
+        padding: .7rem;
+        font-size: 15px;
+        transition: .3s;
+    }
+
+    .corpo__container--btn:hover {
+        background-color: var(--rosa);
+        color: var(--branco);
+        cursor: pointer;
+    }
+}

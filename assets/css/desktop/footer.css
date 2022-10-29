@@ -1,0 +1,27 @@
+@media screen and (min-width: 700px) {
+    .rodape {
+        margin: 0;
+    }
+
+    .rodape__icones {
+        justify-content: flex-end;
+    }
+
+    .rodape__icones--link {
+        padding: .5rem;
+        transition: .3s;
+    }
+    
+    .rodape__icones--link svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .rodape__icones--link:hover {
+        border-color: var(--rosa);
+    }
+
+    .rodape__icones--link:hover svg {
+        fill: var(--rosa);
+    }
+}
